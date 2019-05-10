@@ -1,0 +1,32 @@
+[options]
+girs_dir = "/usr/share/gir-1.0/"
+library = "GCab"
+version = "1.0"
+min_cfg_version = "1.0"
+target_path = "."
+work_mode = "normal"
+deprecate_by_min_version = true
+single_version_file = true
+generate = [
+    "GCab.FileAttribute",
+    "GCab.FileCallback",
+    "GCab.File",
+    "GCab.Folder",
+    "GCab.Error",
+    "GCab.Cabinet",
+    "GCab.Compression",
+]
+
+manual = [
+    "GLib.ByteArray",
+    "GLib.Bytes",
+    "GLib.Error",
+    "GLib.Quark",
+    "GLib.TimeVal",
+    "Gio.Cancellable",
+    "Gio.File",
+    "Gio.FileProgressCallback",
+    "Gio.InputStream",
+    "Gio.OutputStream",
+]
+

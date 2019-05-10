@@ -1,0 +1,13 @@
+[options]
+library = "GCab"
+version = "1.0"
+target_path = "."
+min_cfg_version = "1.0"
+work_mode = "sys"
+girs_dir = "/usr/share/gir-1.0/"
+
+external_libraries = [
+    "Gio",
+    "GLib",
+    "GObject",
+]

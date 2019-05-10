@@ -1,0 +1,23 @@
+[package]
+name = "gcab"
+version = "0.1.0"
+authors = ["Marc-André Lureau <marcandre.lureau@redhat.com>"]
+
+[dependencies]
+libc = "0.2"
+bitflags = "1.0"
+
+[dependencies.gcab-sys]
+path = "./gcab-sys"
+
+[dependencies.glib]
+git = "https://github.com/gtk-rs/glib"
+
+[dependencies.gio]
+git = "https://github.com/gtk-rs/gio"
+
+[dependencies.glib-sys]
+git = "https://github.com/gtk-rs/sys"
+
+[dependencies.gobject-sys]
+git = "https://github.com/gtk-rs/sys"
